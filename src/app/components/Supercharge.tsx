@@ -27,7 +27,7 @@ const Supercharge = () => {
       <section id="supercharge">
         <div className="section-container my-20">
           <h3>Supercharge your workflow</h3>
-          <p className="section-content mb-16">
+          <p className="section-content mb-16 text-xl">
             We{`'`}ve got the tools to boost your productivity.
           </p>
 
