@@ -34,9 +34,7 @@ const Features = () => {
               {items.map((item, idx) => {
                 return (
                   <div key={idx}>
-                    <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
-                      {item.title}
-                    </h5>
+                    <h5>{item.title}</h5>
                     <p className="max-w-md text-grayishBlue">{item.desc}</p>
                   </div>
                 );
