@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url("../assets/images/bg-header-desktop.png");
+  background-image: url("../app/assets/images/bg-header-desktop.png");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
@@ -30,7 +30,7 @@ body {
 }
 
 .section-container {
-  @apply max-w-6xl mx-auto text-center;
+  @apply max-w-6xl mx-auto text-center px-10;
 }
 
 .button-container {
@@ -39,7 +39,7 @@ body {
 
 @media (max-width: 576px) {
   body {
-    background-image: url("../assets/images/bg-header-mobile.png");
+    background-image: url("../app/assets/images/bg-header-mobile.png");
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
