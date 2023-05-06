@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Logo from "@/app/assets/images/logo.svg";
+import Facebook from "@/app/assets/images/icon-facebook.svg";
+import Twitter from "@/app/assets/images/icon-twitter.svg";
+import Instagram from "@/app/assets/images/icon-instagram.svg";
 
 const Footer = () => {
   const menu1Items = ["FAQs", "Contact Us"];
   const menu2Items = ["Privacy Policy", "Press Kit"];
   const menu3Items = ["Install Guide"];
+  const socialItems = [Facebook, Twitter, Instagram];
 
   return (
     <>
@@ -51,6 +55,21 @@ const Footer = () => {
                     );
                   })}
                 </div>
+              </div>
+
+              {/*Social icons*/}
+              <div className="flex justify-between w-32 py-1">
+                {socialItems.map((item, idx) => {
+                  return (
+                    <a key={idx} href="#">
+                      <Image
+                        src={item}
+                        alt="social"
+                        className="duration-200 ficon"
+                      />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
