@@ -22,3 +22,12 @@ body {
   -webkit-background-size: contain;
   background-size: contain;
 }
+
+@media (max-width: 576px) {
+  body {
+    background-image: url("../assets/images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+}
